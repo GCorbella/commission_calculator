@@ -1,6 +1,6 @@
-id = input("Whats your ID? ")
+id = input("Please, introduce your ID? ")
 total_sales = float(input("How much do your sales amount to? "))
 
-commission = round((total_sales*13)/100,2)
+commission = round(total_sales * 13 / 100,2)
 
-print(f"{id} your commission this month ascend to {commission}€")
+print(f"{id} your commission this month ascend to {commission}$")
